@@ -1,0 +1,48 @@
+header > h1
+{
+    border :2px solid red;
+    text-align: center;
+}
+body{
+    color:white;
+    background-color: black;
+}
+nav>a{
+    border:2px dashed red;
+}
+section>h2{
+    color:blue;
+}
+ul,label{
+    color:chocolate;
+}
+summary{
+    color:green;
+}
+details div p{
+    color:chocolate;
+}
+details h3{
+    color:blue;
+}
+progress{
+    background-color: green;
+}
+section:nth-child(5){
+    color:green;
+}
+a:link{
+    color: #FF0000;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color:plum;
+  }
+
+  a:active {
+    color:blue;
+  }
